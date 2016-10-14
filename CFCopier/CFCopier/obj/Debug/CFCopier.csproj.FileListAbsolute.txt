@@ -1,0 +1,37 @@
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\CFCConfig.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\CFCopier.exe.config
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\CFCopier.exe
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\CFCopier.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\BouncyCastle.Crypto.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Auth.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Core.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.PlatformServices.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Sheets.v4.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\log4net.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Newtonsoft.Json.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Zlib.Portable.dll
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\BouncyCastle.Crypto.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Auth.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Auth.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Core.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Core.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.PlatformServices.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.PlatformServices.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Sheets.v4.pdb
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Google.Apis.Sheets.v4.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\log4net.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Newtonsoft.Json.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\bin\Debug\Zlib.Portable.xml
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\obj\Debug\CFCopier.Properties.Resources.resources
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\obj\Debug\CFCopier.csproj.GenerateResource.Cache
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\obj\Debug\CFCopier.exe
+E:\Users\Documents\Visual Studio 2015\Projects\GoogleSheetV4Test\GoogleSheetV4Test\obj\Debug\CFCopier.pdb
+e:\Projects\Git\CFCopier\CFCopier\bin\Debug\CFCopier.exe.config
+e:\Projects\Git\CFCopier\CFCopier\obj\Debug\CFCopier.exe
+e:\Projects\Git\CFCopier\CFCopier\obj\Debug\CFCopier.pdb

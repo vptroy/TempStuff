@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <SpreadSheetId>1yM4xckoN4iaHnV6uhqGOS3SOWn2gsBU6CXr3J9HNWmU</SpreadSheetId>
+  <Range>A1:I5</Range>
+  <Days>
+    <!-- 1 - monday, 7 - sunday. NotToHide = "1" means that table created one day before will be available -->
+    <Day numbers="1,3" tablesNotToHide = "0" >
+      <Replaces>
+        <!-- You can use constant variables $targetDay, $targetDate, $currentDay, $currentDate  inside test to replace.  -->
+        <Replace variableName="headerValue">
+          КРОССФИТ $targetDate ($targetDay). Записаться можно либо на утреннее, либо на вечернее занятие, но не на оба сразу :) Запись до 20:00 $currentDate ($currentDay)"
+        </Replace>
+        <Replace variableName="headerValueMorning">
+          8:00 $targetDate ($targetDay).
+        </Replace>
+        <Replace variableName="headerValueEvening">
+          20:00 $targetDate ($targetDay).
+        </Replace>
+      </Replaces>
+    </Day>
+    <Day numbers="4" tablesNotToHide = "1" >
+      <Replaces>
+        <Replace variableName="headerValue">
+          КРОССФИТ $targetDate ($targetDay). Записаться можно либо на утреннее, либо на вечернее занятие, но не на оба сразу :) Запись до 20:00 $currentDate ($currentDay)"
+        </Replace>
+        <Replace variableName="headerValueMorning">
+          8:00 $targetDate ($targetDay).
+        </Replace>
+        <Replace variableName="headerValueEvening">
+          20:30 $targetDate ($targetDay).
+        </Replace>
+      </Replaces>
+    </Day>
+    <Day>
+      
+    </Day>
+  </Days>
+
+</root>
