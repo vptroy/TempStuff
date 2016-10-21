@@ -29,14 +29,21 @@
         <Replace variableName="headerValueEvening">
           20:30 $targetDate ($targetDay).
         </Replace>
-        <Replace variableName="ola">
-          Всем привет! Я Оля!
-        </Replace>
       </Replaces>
     </Day>
     <Day>
       
     </Day>
   </Days>
+
+  <Notifications>
+    <Notification>
+      <ServerUrl>http://cfbotapp.azurewebsites.net/api/Notify</ServerUrl>
+      <FromId>28:dead1084-0914-4152-8529-cbd1431f2987</FromId>
+      <RecipientId>29:1HWW_XoiopK7cDR0y1vdMfWQm09ne_JaENerdoh5ebiU</RecipientId>
+      <ConversationId>29:1HWW_XoiopK7cDR0y1vdMfWQm09ne_JaENerdoh5ebiU</ConversationId>
+      <Message>Всем привет! Запись открыта! (flex) (flex) (flex) ------------> https://goo.gl/BWb2gD </Message>
+    </Notification>
+  </Notifications>
 
 </root>
