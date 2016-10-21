@@ -35,13 +35,12 @@ namespace CFCopier
             {
                 if (!EventLog.SourceExists("CFAppLog"))
                 {
-                       EventLog.CreateEventSource(new EventSourceCreationData("CFAppLog", "CFAppLog"));
+                    EventLog.CreateEventSource(new EventSourceCreationData("CFAppLog", "CFAppLog"));
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Please run from administrator " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                System.Diagnostics.Debugger.Break();
                 return;
             }
 
@@ -207,7 +206,7 @@ namespace CFCopier
 
             if (SourcePageId == -1)
             {
-                LogAnError(string.Format("Default page named \"{0}\" is missing.", SourcePageName));
+                LogAnError($"Default page named \"{SourcePageName}\" is missing.");
                 return;
             }
 
@@ -219,7 +218,7 @@ namespace CFCopier
             try
             {
                 CurrentSpreadSheetName = targetDate + " " + targetDay;
-                LogAnEvent(string.Format("Creating page \"{0}\".", CurrentSpreadSheetName));
+                LogAnEvent($"Creating page \"{CurrentSpreadSheetName}\".");
                 var CreateNewPage = new Request()
                 {
                     DuplicateSheet = new DuplicateSheetRequest()
@@ -330,7 +329,7 @@ namespace CFCopier
                                                 Text = stringValue.Replace(keyToReplace, variablesToReplaceDictionary[key])
                                             });
                                         }
-                                        
+
                                     }
 
                                 }
@@ -375,7 +374,7 @@ namespace CFCopier
             RunBatchRequest(hideRequestsList, service, spreadsheetId);
             #endregion
 
-            #region formating cells
+            #region Formating cells
             //formating cells
             LogAnEvent("Filling data.");
             var cellTextReplaceRequestsList = new List<Request>();
@@ -535,6 +534,48 @@ namespace CFCopier
             //};
 
             //RunBatchRequest(new List<Request>() { changeHeaderCellRequest, changeHeaderCellMorningRequest, changeHeaderCellEveningRequest }, service, spreadsheetId);
+
+            #endregion
+
+            #region Sending notifications
+
+            var notificationsXElement = configXml.Descendants().FirstOrDefault(l => l.Name.LocalName == "Notifications");
+            if (notificationsXElement.Nodes().Count() > 0)
+            {
+                foreach (var node in notificationsXElement.Nodes().OfType<XElement>())
+                {
+                    var serverUrlXElement = node.Elements("ServerUrl").FirstOrDefault();
+                    var fromIdXElement = node.Elements("FromId").FirstOrDefault();
+                    var recipientIdXElement = node.Elements("RecipientId").FirstOrDefault();
+                    var conversationIdXElement = node.Elements("ConversationId").FirstOrDefault();
+                    var messageXElement = node.Elements("Message").FirstOrDefault();
+
+                    if (serverUrlXElement != null
+                        && fromIdXElement != null
+                        && recipientIdXElement != null
+                        && conversationIdXElement != null
+                        && messageXElement != null)
+                    {
+                        using (var client = new WebClient())
+                        {
+                            try
+                            {
+                                var responseString =
+                                client.DownloadString(
+                                    $"{serverUrlXElement.Value}?from={fromIdXElement.Value}&recipient={recipientIdXElement.Value}&conversation={conversationIdXElement.Value}&message={messageXElement.Value}");
+                            }
+                            catch (Exception)
+                            {
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
 
             #endregion
 

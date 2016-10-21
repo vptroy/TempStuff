@@ -4,7 +4,7 @@
   <Range>A1:I5</Range>
   <Days>
     <!-- 1 - monday, 7 - sunday. NotToHide = "1" means that table created one day before will be available -->
-    <Day numbers="7" tablesNotToHide = "0" >
+    <Day numbers="1,3" tablesNotToHide = "0" >
       <Replaces>
         <!-- You can use constant variables $targetDay, $targetDate, $currentDay, $currentDate  inside test to replace.  -->
         <Replace variableName="headerValue">
@@ -35,5 +35,15 @@
       
     </Day>
   </Days>
+
+  <Notifications>
+    <Notification>
+      <ServerUrl>http://cfbotapp.azurewebsites.net/api/Notify</ServerUrl>
+      <FromId>28:dead1084-0914-4152-8529-cbd1431f2987</FromId>
+      <RecipientId>29:1HWW_XoiopK7cDR0y1vdMfWQm09ne_JaENerdoh5ebiU</RecipientId>
+      <ConversationId>29:1HWW_XoiopK7cDR0y1vdMfWQm09ne_JaENerdoh5ebiU</ConversationId>
+      <Message>Всем привет! Запись открыта! (flex) (flex) (flex) </Message>
+    </Notification>
+  </Notifications>
 
 </root>
